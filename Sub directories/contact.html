@@ -1,136 +1,169 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Contact Us</title>
-<link rel="shortcut icon" href="../Images/icon-travlers-logo--v1.png">
-<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="../css/logo-nav.css" rel="stylesheet">
-<link href="../css/stylesheet.css" rel="stylesheet">
-<link href="../css/w3-stylesheet.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="../Images/icon-travlers-logo--v1.png">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/logo-nav.css" rel="stylesheet">
+    <link href="../css/stylesheet.css" rel="stylesheet">
+    <link href="../css/w3-stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-<div class="container">
-<a class="navbar-brand" href="../index.html">
-  <img src="../Images/travlers-logo--v1.png" width="200" height="60" alt="">
-</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="navbarResponsive">
-	<ul class="navbar-nav ml-auto">
-    <li class="nav-item active">
-    <a class="nav-link" href="../index.html" style="font-size:18px;">Home
-    <span class="sr-only">(current)</span>
-    </a>
-    </li>
-    <li class="nav-item"><a class="nav-link" href="about.html" style="font-size:18px;">About</a></li>
-    <li class="nav-item"><a class="nav-link" href="plans.html" style="font-size:18px;">Plans</a></li>
-    <li class="nav-item"><a class="nav-link" href="hotels.html" style="font-size:18px;">Hotels</a></li>
-    <li class="nav-item"><a class="nav-link" href="cars.html" style="font-size:18px;">Rental-Cars</a></li>
-    <li class="nav-item"><a class="nav-link" href="tickets.html" style="font-size:18px;">Air-Tickets</a></li>
-    <li class="nav-item"><a class="nav-link" href="contact.html" style="font-size:18px;">Contact</a></li>
-    </ul>
-</div>
-</div>
-</nav>
-<!-- PAGE CONTENT-->
-<div id="bkng-nav" class="container">
-	<div><h3 align="center" style="color:#fff;">Contact Us</h3></div>
-</div>
-<div id="bkng-nav-form" class="container" style="margin-bottom:20px;">
-<div class="container row" id="contactform">
-<div class="col-lg-6 col-md-6">
-<h2>Feed Back Form</h2>
-<form onsubmit="return validateForm()">
-	<label><h4>Name</h4></label>
-	<input type="text" name="inputName" placeholder="Enter Your Full Name" class="form-control" required>
-    <label><h4>Email</h4></label>
-	<input type="email" name="inputEmail" placeholder="Enter Your Email Address" class="form-control" required>
-    <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-    <label><h4>Phone</h4></label>
-	<input type="tel" name="inputPhone" placeholder="Enter Your Phone Number" class="form-control"  pattern="[0-9]{11,11}" required>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Images/travlers-logo--v1.png" width="200" height="60" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html" style="font-size:18px;">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" style="font-size:18px;">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="plans.html" style="font-size:18px;">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hotels.html" style="font-size:18px;">Hotels</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cars.html" style="font-size:18px;">Rental-Cars</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="tickets.html" style="font-size:18px;">Air-Tickets</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="font-size:18px;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- PAGE CONTENT-->
+    <div id="bkng-nav" class="container">
+        <div>
+            <p align="center">Contact Us</p>
+        </div>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-    <label><h4>City</h4></label>
-      <select class="form-control" id="city-from" required>
-        <option>Abu-Dhabi</option>
-        <option>Amsterdam</option>
-        <option>Boston</option>
-        <option>Barcelona</option>
-        <option>Bankok</option>
-        <option>Bogota</option>
-        <option>Cairo</option>
-        <option>Cali</option>
-        <option>Dubai</option>
-        <option>Dublin</option>
-        <option>Fuji</option>
-        <option>Giza</option>
-        <option>Huston</option>
-        <option>Hong-Kong</option>
-        <option>Islamabad</option>
-        <option>Istanbul</option>
-        <option>Karachi</option>
-        <option>Kuala-Lumpur</option>
-        <option>London</option>
-        <option>Las-Vegas</option>
-        <option>Los-Angeles</option>
-        <option>Madrid</option>
-        <option>Munich</option>
-        <option>Miami</option>
-        <option>Milan</option>
-        <option>New-York</option>
-        <option>Osaka</option>
-        <option>Prague</option>
-        <option>Paris</option>
-        <option>Singapore</option>
-        <option>Stockholm</option>
-        <option>Seoul</option>
-        <option>Shanghai</option>
-        <option>Taipei</option>
-        <option>Toronto</option>
-        <option>Vienna</option>
-        <option>Rome</option>
-		</select>
+    <div id="bkng-nav-form" class="container" style="margin-bottom:20px;">
+        <div class="container row" id="contactform">
+            <div class="col-lg-6 col-md-6">
+                <h2>Feed Back Form</h2>
+                <form onsubmit="return validateForm()">
+                    <label>
+                        <h4>Name</h4>
+                    </label>
+                    <input type="text" name="inputName" placeholder="Enter Your Full Name" class="form-control"
+                        required>
+                    <label>
+                        <h4>Email</h4>
+                    </label>
+                    <input type="email" name="inputEmail" placeholder="Enter Your Email Address" class="form-control"
+                        required>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <label>
+                                <h4>Phone</h4>
+                            </label>
+                            <input type="tel" name="inputPhone" placeholder="Enter Your Phone Number"
+                                class="form-control" pattern="[0-9]{11,11}" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <label>
+                                <h4>City</h4>
+                            </label>
+                            <select class="form-control" id="city-from" required>
+                                <option>Abu-Dhabi</option>
+                                <option>Amsterdam</option>
+                                <option>Boston</option>
+                                <option>Barcelona</option>
+                                <option>Bankok</option>
+                                <option>Bogota</option>
+                                <option>Cairo</option>
+                                <option>Cali</option>
+                                <option>Dubai</option>
+                                <option>Dublin</option>
+                                <option>Fuji</option>
+                                <option>Giza</option>
+                                <option>Huston</option>
+                                <option>Hong-Kong</option>
+                                <option>Islamabad</option>
+                                <option>Istanbul</option>
+                                <option>Karachi</option>
+                                <option>Kuala-Lumpur</option>
+                                <option>London</option>
+                                <option>Las-Vegas</option>
+                                <option>Los-Angeles</option>
+                                <option>Madrid</option>
+                                <option>Munich</option>
+                                <option>Miami</option>
+                                <option>Milan</option>
+                                <option>New-York</option>
+                                <option>Osaka</option>
+                                <option>Prague</option>
+                                <option>Paris</option>
+                                <option>Singapore</option>
+                                <option>Stockholm</option>
+                                <option>Seoul</option>
+                                <option>Shanghai</option>
+                                <option>Taipei</option>
+                                <option>Toronto</option>
+                                <option>Vienna</option>
+                                <option>Rome</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label for="subject">
+                        <h4>Message</h4>
+                    </label>
+                    <textarea class="form-control" id="subject" name="subject" placeholder="Type Your Message Here.."
+                        style="height:200px"></textarea>
+                    <br>
+                    <div align="center">
+                        <button type="submit" class="w3-button w3-block w3-red" id="searchbtn" style="height:50px;"
+                            onclick="show_alert();">Send</button>
+                    </div>
+                    <br>
+                </form>
+                <script>
+                    function validateForm() {
+                        var x = document.forms["myForm"]["fname"].value;
+                        if (x == "") {
+                            alert("Name must be filled out");
+                            return false;
+                        }
+                    } 
+                </script>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h1>Location</h1>
+                <p style="font-size:20px">B-11, Sector 11-B, North Karachi,<br>Karachi, Sindh.</p>
+                <h1>Phone</h1>
+                <p style="font-size:20px">+999-999-999</p>
+                <h1>Email</h1>
+                <p style="font-size:20px">travlers@loremipsum.example</p>
+                <div class="col" align="center"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d115732.15328119934!2d66.99182205296749!3d24.97870731308975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech+Computer+Education+North+Karachi+Center%2C+B-11%2C+Sector+11-B%2C+North+Karachi%2C+Sector+11+B+North+Karachi+Twp%2C+Karachi%2C+Karachi+City%2C+Sindh+75850!3m2!1d24.9787237!2d67.0618624!5e0!3m2!1sen!2s!4v1530236614923"
+                        width="100%" height="300" frameborder="0" style="border:0"></iframe></div>
+            </div>
+        </div>
     </div>
+    <div id="footer" class="container-fluid">
+        <br>
+        <p align="center">Designed By Aptech Students &copy;</p>
+        <p align="center"><img src="../Social Icons/006-facebook-1.png" width="40px" height="40px"> <img
+                src="../Social Icons/005-twitter-1.png" width="40px" height="40px"> <img
+                src="../Social Icons/004-instagram-1.png" width="40px" height="40px"> <img
+                src="../Social Icons/001-google-plus-1.png" width="40px" height="40px"></p>
     </div>
-    <label for="subject"><h4>Message</h4></label>
-    <textarea class="form-control" id="subject" name="subject" placeholder="Type Your Message Here.." style="height:200px"></textarea>
-    <br>
-    <div align="center">
-	<button type="submit" class="btn btn-success center-block" id="searchbtn" style="width:150px; height:50px;" onclick="show_alert();">Send</button>
-    </div>
-    <br>
-</form>
-<script>
-function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-} 
-</script>
-</div>
-<div class="col-lg-6 col-md-6">
-<h1>Location</h1><p style="font-size:20px">B-11, Sector 11-B, North Karachi,<br>Karachi, Sindh.</p>
-<h1>Phone</h1><p style="font-size:20px">+999-999-999</p>
-<h1>Email</h1><p style="font-size:20px">travlers@loremipsum.example</p>
-<div class="col" align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d115732.15328119934!2d66.99182205296749!3d24.97870731308975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech+Computer+Education+North+Karachi+Center%2C+B-11%2C+Sector+11-B%2C+North+Karachi%2C+Sector+11+B+North+Karachi+Twp%2C+Karachi%2C+Karachi+City%2C+Sindh+75850!3m2!1d24.9787237!2d67.0618624!5e0!3m2!1sen!2s!4v1530236614923"  width="100%" height="300" frameborder="0" style="border:0"></iframe></div>
-</div>
-</div>
-</div>
-<div id="footer" class="container-fluid">
-<br>
-<p align="center">Designed By Aptech Students &copy;</p>
-<p align="center"><img src="../Social Icons/006-facebook-1.png" width="40px" height="40px"> <img src="../Social Icons/005-twitter-1.png" width="40px" height="40px"> <img src="../Social Icons/004-instagram-1.png" width="40px" height="40px"> <img src="../Social Icons/001-google-plus-1.png" width="40px" height="40px"></p>
-</div>
 </body>
+
 </html>
